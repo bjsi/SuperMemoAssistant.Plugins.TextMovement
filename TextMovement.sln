@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution files", "_Solution files", "{94F70ED4-7D91-46BE-8CD7-EC6320FD3D3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{9339A331-2BF7-4426-AFC6-DD03D4A533F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMemoAssistant.Plugins.TextMovement", "src\SuperMemoAssistant.Plugins.TextMovement\SuperMemoAssistant.Plugins.TextMovement.csproj", "{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D312FB6C-657A-419E-8E64-8A5911603215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMemoAssistant.Plugins.TextMovement.Tests", "src\SuperMemoAssistant.Plugins.TextMovement.Tests\SuperMemoAssistant.Plugins.TextMovement.Tests.csproj", "{0EFD09A1-0810-44A9-A35F-4497F95E3F34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1. Alpha (Debug)|Any CPU = 1. Alpha (Debug)|Any CPU
+		2. Beta (Release)|Any CPU = 2. Beta (Release)|Any CPU
+		3. Stable (Release)|Any CPU = 3. Stable (Release)|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.1. Alpha (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.1. Alpha (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.2. Beta (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.2. Beta (Release)|Any CPU.Build.0 = Release|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.3. Stable (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.3. Stable (Release)|Any CPU.Build.0 = Release|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.1. Alpha (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.1. Alpha (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.2. Beta (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.2. Beta (Release)|Any CPU.Build.0 = Release|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.3. Stable (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.3. Stable (Release)|Any CPU.Build.0 = Release|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C243291-2DF6-4C6F-8663-A29F6F5DC9E3} = {9339A331-2BF7-4426-AFC6-DD03D4A533F8}
+		{0EFD09A1-0810-44A9-A35F-4497F95E3F34} = {D312FB6C-657A-419E-8E64-8A5911603215}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {156E0B7B-A8CB-4EB1-A73A-BD0DF2DAC9DC}
+	EndGlobalSection
+EndGlobal
